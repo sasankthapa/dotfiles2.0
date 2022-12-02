@@ -14,4 +14,4 @@ vim.api.nvim_set_keymap("n","<leader>j","<C-w>j",{ noremap = true })
 vim.api.nvim_set_keymap("n","<leader>rc",":e ~/.config/nvim<CR>",{ noremap = true })
 
 --fugit
-vim.api.nvim_set_keymap("n","<leader>gg",":Git",{noremap=true})
+vim.api.nvim_set_keymap("n","<leader>gg",":Git<CR>",{noremap=true})
